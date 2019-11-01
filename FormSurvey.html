@@ -2,9 +2,65 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Form lấy survey khách hàng</title>
 </head>
 <body>
+    <h1>Market Research Servey </h1>
+    <h5>Please take a few moments to complete this satisfaction survey.</h5>
+    <hr>
+    <form>
+        <div>What is your age range? <br/>
+        <select name="age" style="width: 50%">
+            <option value="18-24">18-24</option>
+            <option value="25-34">25-34</option>
+            <option value="35-50">35-50</option>
+            <option value="50+">50+</option>
+        </select><br/>
+        </div>
+
+        <div>What is your yearly income range?<br/>
+        <select name="money" style="width: 50%">
+            <option value="$0-$25000">$0-$25,000</option>
+            <option value="$25001-$50000">$25,001-$50,000</option>
+            <option value="$50001-$100000">$50,001-$100,000</option>
+            <option value="$100000+">$100,000+</option>
+        </select><br/>
+        </div>
+
+        <div> Gender Identity <br/>
+            <label><input name="gender" value="male" type="radio"/>Male</label> <br/>
+            <label><input name="gender" value="female" type="radio"/>Female</label><br/>
+            <label><input name="gender" value="nonbinary" type="radio"/>Nonbinary</label><br/>
+            <label><input name="gender" value="other" type="radio"/>Other</label><br/>
+
+        </div>
+
+        <div>Which of the following products have your purchased in the last 2 months. Please check all that apply.<br/>
+            <label><input name="production" value="1" type="checkbox">Production 1</label><br/>
+            <label><input name="production" value="2" type="checkbox">Production 2</label><br/>
+            <label><input name="production" value="3" type="checkbox">Production 3</label><br/>
+        </div>
+
+        <div> How often would you use our new product? <br/>
+            <label><input name="often" value="daily" type="radio"/>Daily</label> <br/>
+            <label><input name="often" value="weekly" type="radio"/>Weekly</label><br/>
+            <label><input name="often" value="monthly" type="radio"/>Monthly</label><br/>
+
+        </div>
+        <div>
+            What would you pay for the new product?<br/>
+            <input name="dollars" type="text" size="5"/>-
+            <input name="cents" type="text" size="3"/>
+        </div>
+
+        <div>
+            What features whould you like to see in the new product?<br/>
+            <textarea cols="50" rows="4"></textarea>
+        </div>
+
+
+
+    </form>
 
 </body>
 </html>

@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c35b4ecf-fb73-453e-b717-d94f98f85e7c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/CV cá nhân.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CV2.html" beforeDir="false" afterPath="$PROJECT_DIR$/CV2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DangKyHocVien.html" beforeDir="false" afterPath="$PROJECT_DIR$/DangKyHocVien.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FormSoThich.html" beforeDir="false" afterPath="$PROJECT_DIR$/FormSoThich.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FormSurvey.html" beforeDir="false" afterPath="$PROJECT_DIR$/FormSurvey.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tạo danh sách.html" beforeDir="false" afterPath="$PROJECT_DIR$/Tạo danh sách.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,7 +53,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1572513676892</updated>
-      <workItem from="1572513678079" duration="4033000" />
+      <workItem from="1572513678079" duration="4305000" />
+      <workItem from="1572536699553" duration="8017000" />
+      <workItem from="1572571012493" duration="12420000" />
     </task>
     <servers />
   </component>
@@ -61,7 +67,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
