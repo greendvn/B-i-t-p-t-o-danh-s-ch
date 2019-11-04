@@ -3,13 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <title>Form lấy survey khách hàng</title>
+    <link rel="stylesheet" href="FromSurveyCSS.css">
+
 </head>
 <body>
     <h1>Market Research Servey </h1>
-    <h5>Please take a few moments to complete this satisfaction survey.</h5>
+    <h4>Please take a few moments to complete this satisfaction survey.</h4>
     <hr>
     <form>
-        <div>What is your age range? <br/>
+        <div>
+            What is your age range?<br/>
         <select name="age" style="width: 50%">
             <option value="18-24">18-24</option>
             <option value="25-34">25-34</option>
@@ -31,8 +34,9 @@
             <label><input name="gender" value="male" type="radio"/>Male</label> <br/>
             <label><input name="gender" value="female" type="radio"/>Female</label><br/>
             <label><input name="gender" value="nonbinary" type="radio"/>Nonbinary</label><br/>
-            <label><input name="gender" value="other" type="radio"/>Other</label><br/>
-
+            <label><input name="gender" value="other" type="radio" />Other</label><br/>
+            <textarea cols="20" rows="1"></textarea><br>
+            Maximum of &nbsp;  250 characters.    Currently Used: 0 characters.
         </div>
 
         <div>Which of the following products have your purchased in the last 2 months. Please check all that apply.<br/>
@@ -49,16 +53,66 @@
         </div>
         <div>
             What would you pay for the new product?<br/>
-            <input name="dollars" type="text" size="5"/>-
-            <input name="cents" type="text" size="3"/>
+            <table>
+                <tr>
+                    <td>$</td>
+                    <td><input name="dollars" type="text" size="5"/></td>
+                    <td>-</td>
+                    <td><input name="cents" type="text" size="3"/></td>
+                </tr>
+                <tr >
+                    <td></td>
+                    <td>Dollars</td>
+                    <td></td>
+                    <td>Cents</td>
+                </tr>
+            </table>
+
+
         </div>
 
         <div>
             What features whould you like to see in the new product?<br/>
-            <textarea cols="50" rows="4"></textarea>
+            <textarea cols="127" rows="5"></textarea>
         </div>
+        <div>
+            Please rate your level of agreement with the following statement.<br/>
+            <table id="tb">
+                <tr>
+                    <th></th>
+                    <td>Strongly Disagree</td>
+                    <td>Disagree</td>
+                    <td>Agree</td>
+                    <td>Strongly agree</td>
+                </tr>
+                <tr >
+                    <th>Our Product are price fairly.</th>
+                    <td><input name="fairly" value="1" type="radio"><br/>1</td>
+                    <td><input name="fairly" value="2" type="radio"><br/>2</td>
+                    <td><input name="fairly" value="3" type="radio"><br/>3</td>
+                    <td><input name="fairly" value="4" type="radio"><br/>4</td>
+                </tr>
+                <tr>
+                    <th>Our product are high quality</th>
+                    <td><input name="quality" value="1" type="radio"><br/>1</td>
+                    <td><input name="quality" value="2" type="radio"><br/>2</td>
+                    <td><input name="quality" value="3" type="radio"><br/>3</td>
+                    <td><input name="quality" value="4" type="radio"><br/>4</td>
+                </tr>
+                <tr>
+                    <th>You would recommend our product to a friend or coworker.</th>
+                    <td><input name="recommend" value="1" type="radio"><br/>1</td>
+                    <td><input name="recommend" value="2" type="radio"><br/>2</td>
+                    <td><input name="recommend" value="3" type="radio"><br/>3</td>
+                    <td><input name="recommend" value="4" type="radio"><br/>4</td>
+                </tr>
 
 
+            </table>
+        </div>
+        <div>
+            <input type="submit" value="Send Data">
+        </div>
 
     </form>
 

@@ -2,12 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c35b4ecf-fb73-453e-b717-d94f98f85e7c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/BanCoVua.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BanCoVuaCSS.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DangKyNguoiDung.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FromSurveyCSS.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lich.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lich.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TableSimple.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TaoBangNangCao.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TaoBangnangCao.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThoiKhoaBieu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThoiKhoaBieu1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThoiKhoaBieu2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CV2.html" beforeDir="false" afterPath="$PROJECT_DIR$/CV2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DangKyHocVien.html" beforeDir="false" afterPath="$PROJECT_DIR$/DangKyHocVien.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FormSoThich.html" beforeDir="false" afterPath="$PROJECT_DIR$/FormSoThich.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FormSurvey.html" beforeDir="false" afterPath="$PROJECT_DIR$/FormSurvey.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tạo danh sách.html" beforeDir="false" afterPath="$PROJECT_DIR$/Tạo danh sách.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,7 +29,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -30,6 +43,8 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -55,7 +70,15 @@
       <updated>1572513676892</updated>
       <workItem from="1572513678079" duration="4305000" />
       <workItem from="1572536699553" duration="8017000" />
-      <workItem from="1572571012493" duration="12420000" />
+      <workItem from="1572571012493" duration="14074000" />
+      <workItem from="1572616759340" duration="11179000" />
+      <workItem from="1572684433061" duration="5608000" />
+      <workItem from="1572700701573" duration="14240000" />
+      <workItem from="1572717681848" duration="207000" />
+      <workItem from="1572754423847" duration="594000" />
+      <workItem from="1572821690695" duration="5201000" />
+      <workItem from="1572829439633" duration="17474000" />
+      <workItem from="1572858944926" duration="851000" />
     </task>
     <servers />
   </component>

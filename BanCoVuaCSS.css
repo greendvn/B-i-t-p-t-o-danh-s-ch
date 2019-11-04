@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+body{
+    background-color: gold;
+}
+table{
+    margin: auto;
+    border-spacing: unset;
+
+}
+
+th{
+    width: 50px;
+    height: 50px;
+
+}
+tr:nth-child(2n+1) td:nth-child(2n+1) {
+    background-color: white;
+}
+tr:nth-child(2n+1) td:nth-child(2n+2) {
+    background-color: black;
+}
+tr:nth-child(2n+2) td:nth-child(2n+1) {
+    background-color: black;
+}
+tr:nth-child(2n+2) td:nth-child(2n+2) {
+    background-color: white;
+
+

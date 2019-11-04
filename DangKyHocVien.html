@@ -3,42 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <title>Đăng Ký Học Viên</title>
+    <style type="text/css">
+        h2, th {
+            color: blue;
+        }
+
+    </style>
 </head>
 <body>
- <h2>Sở thích của bạn</h2>
 <form>
-     Họ và tên :<br/>
-    <input name="yourname" type="text"/><br/>
+    <h2>Sở thích của bạn</h2>
+    <table>
 
-    Ngày sinh :<br/>
-    <input name="birthday" type="text"/><br/>
+        <tr>
+            <th>Họ và tên </th>
+            <td><input name="yourname" type="text"/></td>
+        </tr>
+        <tr>
+            <th>Ngày sinh </th>
+            <td><input name="birthday" type="text" size="10"/></td>
+        </tr>
+        <tr>
+            <th>Giới tính </th>
+            <td>
+                <label><input name="sex" value="male" type="radio"/>Nam</label>
+                <label><input name="sex" value="female" type="radio"/>Nữ</label>
+            </td>
+        </tr>
+        <tr>
+            <th>Địa chỉ</th>
+            <td><textarea cols="50" rows="4"></textarea><br/></td>
+        </tr>
+        <tr>
+            <th>Lớp</th>
+            <td>
+                <select name="Lớp">
+                <option value="A">Lớp A</option>
+                <option value="B">Lớp B</option>
+                <option value="C">Lớp C</option>
+                <option value="D">Lớp D</option>
+                <option value="E">Lớp E</option>
+            </select>
+            </td>
+        </tr>
+        <tr>
+            <th>Email </th>
+            <td><input name="email" type="text"/></td>
+        </tr>
+        <tr>
+            <th>Điện thoại </th>
+            <td><input name="number" type="text"/></td>
+        </tr>
+        <tr>
+            <th></th>
+            <td>
+                <input type="reset" value="Nhập lại"/>
+                <input type="submit" value="Đăng ký"/>
+            </td>
+        </tr>
+    </table>
 
-    Giới tính :
-    <label><input name="sex" value="male" type="radio"/>Nam</label>
-    <label><input name="sex" value="female" type="radio"/>Nữ</label><br/>
-
-    Địa chỉ: <br/>
-    <textarea cols="50" rows="4"></textarea><br/>
-
-    Lớp:
-    <select name="Lớp">
-        <option value="A">Lớp A</option>
-        <option value="B">Lớp B</option>
-        <option value="C">Lớp C</option>
-        <option value="D">Lớp D</option>
-        <option value="E">Lớp E</option>
-    </select><br/>
-
-    Điện thoại :<br/>
-    <input name="number" type="text"/><br/>
-    Email :<br/>
-
-    <input name="email" type="text"/><br/>
-
-
-
-    <input type="reset" value="Nhập lại"/>
-    <input type="submit" value="Đăng ký"/>
 </form>
 </body>
 </html>
